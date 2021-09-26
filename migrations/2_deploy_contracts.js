@@ -1,5 +1,6 @@
-const Decentragram = artifacts.require("Decentragram");
+// eslint-disable-next-line no-undef
+const Decentragram = artifacts.require('Decentragram');
 
-module.exports = function(deployer) {
-  // Code goes here...
+module.exports = deployer => {
+  deployer.deploy(Decentragram);
 };
